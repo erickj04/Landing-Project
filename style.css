@@ -20,10 +20,24 @@ body{
 }
 
 .top-content{
-    height: 300px;
+    width: 1200px;
+    padding: 50px;
+    height: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.awesome-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.isi{
+    color: lightgray;
 }
 
 ul{
@@ -34,7 +48,7 @@ ul{
 }
 
 .title{
-    font-size: 24px;
+    font-size: 30px;
     color:white;
     font-weight: 600;
 }
@@ -42,4 +56,9 @@ ul{
 a{
     text-decoration-line: none;
     color:lightgray;
+}
+
+button{
+    width: fit-content;
+    background-color: #3882f6;
 }
