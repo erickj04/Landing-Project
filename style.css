@@ -1,10 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .header{
     display: flex;
     background-color: #2f4360;
+    justify-content: space-between;
+    font-size: 24px;
+    height: 50px;
+    padding: 20px 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
 }
 
 .title{
     color:white;
+    font-weight: 600;
 }
 
 a{
