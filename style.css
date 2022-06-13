@@ -1,8 +1,13 @@
 .header{
     display: flex;
-    background-color: royalblue;
+    background-color: #2f4360;
 }
 
 .title{
     color:white;
+}
+
+a{
+    text-decoration-line: none;
+    color:lightgray;
 }
