@@ -4,28 +4,26 @@ body{
     margin: 0;
 }
 
-.bg-up{
+.container{
+    display: flex;
+    width: 1200px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+}
+
+#middle{
     display: flex;
     justify-content: center;
-    background-color: #1a2434;
 }
 
-.header{
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    height: auto;
+#header{
     padding: 20px 100px;
-    align-items: center;
 }
 
-.top-content{
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    height: auto;
+#top-content{
     padding: 50px;
-    align-items: center;
 }
 
 .awesome-content{
