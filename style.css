@@ -14,19 +14,18 @@ body{
     display: flex;
     width: 1200px;
     justify-content: space-between;
-    height: 50px;
+    height: auto;
     padding: 20px 100px;
     align-items: center;
 }
 
 .top-content{
-    width: 1200px;
-    padding: 50px;
-    height: auto;
     display: flex;
-    align-items: center;
-    gap: 100px;
+    width: 1200px;
     justify-content: space-between;
+    height: auto;
+    padding: 50px;
+    align-items: center;
 }
 
 .awesome-content{
@@ -61,4 +60,13 @@ a{
 button{
     width: fit-content;
     background-color: #3882f6;
+    box-shadow: #1a2434;
+}
+
+#information-header{
+    color: black;    
+}
+
+.mid-content{
+
 }
