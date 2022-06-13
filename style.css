@@ -4,21 +4,30 @@ body{
     margin: 0;
 }
 
+.bg-up{
+    display: flex;
+    justify-content: center;
+    background-color: #1a2434;
+}
+
 .header{
     display: flex;
-    background-color: #2f4360;
+    width: 1200px;
     justify-content: space-between;
-    font-size: 24px;
     height: 50px;
     padding: 20px 100px;
+    align-items: center;
 }
 
 ul{
     display: flex;
+    gap: 20px;
     list-style: none;
+    font-size: 20px;
 }
 
 .title{
+    font-size: 24px;
     color:white;
     font-weight: 600;
 }
