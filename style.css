@@ -88,3 +88,18 @@ button{
     gap: 10px;
     padding: 20px;
 }
+
+#quotes{
+    font-size: 20px;
+    font-style: italic;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.thequote{
+    
+}
+
+.writer{
+    display: flex;
+}
