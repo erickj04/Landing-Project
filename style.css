@@ -10,7 +10,6 @@ body{
     height: auto;
     justify-content: space-between;
     align-items: center;
-    justify-self: center;
 }
 
 #middle{
@@ -26,14 +25,23 @@ body{
     padding: 50px;
 }
 
+#mid-content{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
 .awesome-content{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     width: 400px;
 }
 
-.isi{
+#isi{
+    display: flex;
+    flex-wrap: wrap;
     color: lightgray;
 }
 
@@ -48,6 +56,8 @@ ul{
     font-size: 30px;
     color:white;
     font-weight: 600;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -61,10 +71,20 @@ button{
     box-shadow: #1a2434;
 }
 
-#information-header{
-    color: black;    
+.random{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
-.mid-content{
-
+.box{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
 }
